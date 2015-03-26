@@ -15,10 +15,6 @@ Extension is now published under [New BSD License](https://github.com/bgromov/wi
 
 For bug reports and feature requests, please use [Issue tracker](https://github.com/bgromov/wiki-mathjax/issues).
 
-### INSTALLATION:
-
-Official release available at [Chrome Web Store](https://chrome.google.com/webstore/detail/wikipedia-with-mathjax/fhomhkjcommffnlajeemenejemmegcmi).
-
 
 ### KNOWN ISSUES:
 
