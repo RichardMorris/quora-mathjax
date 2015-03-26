@@ -15,8 +15,15 @@ Extension is now published under [New BSD License](https://github.com/bgromov/wi
 
 For bug reports and feature requests, please use [Issue tracker](https://github.com/bgromov/wiki-mathjax/issues).
 
+### Installation
 
-### KNOWN ISSUES:
-
- - Symbols which are not a part of display equation, i.e. not typed in between <math>...</math>, but right after it, will be displayed from the next line. This is along with LaTeX markup rules and won't be fixed.
+1. Download the Zip using button on the right.
+2. Unpack in a suitable location. This will create a directory *quora-mathjax-master*
+3. In the Chrome extension page, [chrome://extensions/](chrome://extensions/) click the *Developer mode* checkbox
+4. Click the *Load unpacked extension* button and select the extension directory.
+5. Thats it.
  
+
+### Know Issues
+
+- does not distinguish between inline and display equations
