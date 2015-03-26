@@ -26,7 +26,7 @@
 // //  return '<div style="font-size: 125%">' + $otag + $(this).attr('alt') + $ctag + '</div>';
 // });
 
-
+console.log("MathJax wrapper");
 
 // Wrap the span for legacy zoom levels.
 // Could it be an option within the Chrome extension?
@@ -39,6 +39,14 @@ $('img.tex').each(function() {
 // Wrap images in MathJax_Preview spans and attach the MathJax math script.
 // MathJax will remove the preview when it's done typesetting.
 $('img.tex').wrap('<span class="MathJax_Preview" />');
+
+$('img.math').each(function() {
+		console.log("eqn");
+});
+
+// Quora
+$('img.math').wrap('<span class="MathJax_Preview" />');
+
 $('.MathJax_Preview').after(function () {
   var $disp, $scale;
   if($(this).parent().is('dd')) {
